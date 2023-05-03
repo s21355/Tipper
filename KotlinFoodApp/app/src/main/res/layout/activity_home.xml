@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            android:id="@+id/imageViewStar"
+            android:layout_width="399dp"
+            android:layout_height="356dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/baseline_star_24" />
+
+        <Button
+            android:id="@+id/buttonGoToApp"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="Przejdź do aplikacji" />
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
